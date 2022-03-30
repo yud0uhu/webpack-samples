@@ -1,0 +1,19 @@
+{
+  "name": "banner",
+  "version": "1.0.0",
+  "description": "バンドルしたファイルにコメントを追加する",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Yoshihiro Yamada",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  }
+}
+
